@@ -1,0 +1,41 @@
+.fb__home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 6rem;
+    padding-left: 830px;
+}
+
+.fb__home-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.fb__home-links_container {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.fb__home-links_container p {
+    width: 82px;
+    height: 29px;
+
+    font-family: 'Commissioner';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+
+    margin: 0 2rem;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-text);
+}
